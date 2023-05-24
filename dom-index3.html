@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM básica - Curso Práctico de Javascript</title>
+    <!-- <script src="./dom.js"></script> -->
+</head>
+<body>    
+    <h1>Manipulación del DOM básica</h1>
+    <!-- ejemplo normal -->
+    <!-- <input id="calculo1" placeholder="Escribe un número aquí"/>
+    <input id="calculo2" placeholder="Escribe un número aquí"/>
+    
+    <button id="btnCalcular">Calcular</button> -->
+    <!-- ejemplo formulario -->
+    <form id="formulario">
+        <input id="calculo1" placeholder="Escribe un número aquí"/>
+        <input id="calculo2" placeholder="Escribe un número aquí"/>
+    
+        <button id="btnCalcular">Calcular</button>
+    </form>
+    <!-- cuando es formulario... toma el último botón y le asigna por defecto type="submit" haciendo que se recargue a página...
+    a menos que se haga event.defaultPrevent para cancelar esa recarga de la p+agina -->
+    <!-- pero también se puede evitar eso simplemente poniendo en el button que sea <button type="button" id="btnCalcular">Calcular</button> -->
+
+    <p id="result"></p>
+
+    <script src="./dom4.js"></script>
+</body>
+</html>
